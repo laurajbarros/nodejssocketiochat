@@ -1,0 +1,33 @@
+<% include ./partials/header %>
+<div id="wrapall">
+	
+
+	<div id="sidebar">
+		<div id="numberofusers"></div>	
+		<div id="logout" class="hidden"> Logout </div>
+	</div>
+
+	
+	<div id="contentbar">
+		<div id="register">
+			<p>Username<input id="username" type="text" name="username"/></p>
+			<p>Email<input id="email" type="email" name="email"/></p>
+			<button id="registerbutton" type="submit">Register</button>
+		</div>
+
+		<div id="main">
+			<div id="chat" class="hidden">	
+				<div id="content"></div>
+				<div class="controls">
+						<input  id="field" type="text"/>
+						<button id="send" type="button">send</button>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+</div>
+<% include ./partials/footer %>
+
+
